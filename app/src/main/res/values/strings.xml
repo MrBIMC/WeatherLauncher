@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="no_google_weather">Google Weather in unreachable :(</string>
+</resources>
