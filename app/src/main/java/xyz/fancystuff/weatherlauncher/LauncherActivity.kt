@@ -16,8 +16,7 @@ class LauncherActivity : Activity() {
                     "com.google.android.apps.gsa.velour.DynamicActivityTrampoline")
             intent.data = Uri.parse("dynact://velour/weather/ProxyActivity")
             startActivity(intent)
-        }
-        catch (e: Exception) {
+        } catch (e: Exception) {
             Toast.makeText(this, getString(R.string.no_google_weather), Toast.LENGTH_LONG).show()
         }
         finish()
